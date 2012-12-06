@@ -21,4 +21,19 @@ describe('isbin', function() {
       done();
     });
   });
+
+  it('accepts binary, additional path and callback', function() {
+    var exists = isbin('ls', '/etc');
+    exists.should.be.a('boolean');
+  });
+
+  it('accepts array of paths', function() {
+    var exists = isbin('ls', ['/etc', '/home']);
+    exists.should.be.a('boolean');
+  });
+
+  it('accepts just binary', function() {
+    var exists = isbin('ls');
+    exists.should.be.a('boolean');
+  });
 });
