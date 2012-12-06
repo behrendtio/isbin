@@ -31,6 +31,14 @@ isbin('mysql', ['/usr/local/bin', '/home/me/bins'], function(exists) {
 });
 ```
 
+There are also synchronous versions available
+
+```js
+var exists = isbin('mysql');
+var exists = isbin('mysql', '/usr/local/bin');
+var exists = isbin('mysql', ['/usr/local/bin', '/home/me/bins']);
+```
+
 # Running the tests
 
 ```bash
