@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/mbehrendt/isbin.png?branch=master)](https://travis-ci.org/mbehrendt/isbin)
+
 # Isbin
 
 Tiny little helper library to determine if a certain binary is available within $PATH or any additional folder.
