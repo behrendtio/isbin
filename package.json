@@ -3,10 +3,17 @@
   "version": "0.0.1",
   "description": "Checks for available binaries on unix machines",
   "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": ["fs", "bin", "binary", "exists", "check", "path"],
   "scripts": {
     "test": "make test"
   },
-  "repository": "git://github.com/mbehrendt/isbin.git",
+  "repository": {
+    "type" : "git",
+    "url": "git://github.com/mbehrendt/isbin.git"
+  },
   "author": [
     "Mario Behrendt <info@mario-behrendt.de>",
     "Stephan Hoyer <ste.hoyer@gmail.com>"
