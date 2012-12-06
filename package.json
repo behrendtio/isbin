@@ -7,6 +7,12 @@
     "test": "make test"
   },
   "repository": "",
-  "author": "Mario Behrendt <info@mario-behrendt.de>",
-  "license": "MIT"
+  "author": [
+    "Mario Behrendt <info@mario-behrendt.de>",
+    "Stephan Hoyer <ste.hoyer@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "*"
+  }
 }
