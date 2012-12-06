@@ -13,6 +13,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "async": "*"
+    "async": "0.1.22"
   }
 }

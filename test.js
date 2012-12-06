@@ -5,3 +5,7 @@ console.log({
   php: there('php', '/Users/mario'),
   whore: there('whore')
 });
+
+there('brew', function(res) {
+  console.log(res);
+});
