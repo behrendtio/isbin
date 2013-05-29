@@ -1,6 +1,6 @@
 {
   "name": "isbin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Checks for available binaries on unix machines",
   "main": "index.js",
   "engines": {
